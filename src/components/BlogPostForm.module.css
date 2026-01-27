@@ -1,0 +1,15 @@
+.blogPostForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.error {
+    color: #FF0000;
+    font-size: 14px;
+}
