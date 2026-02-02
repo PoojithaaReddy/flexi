@@ -1,0 +1,29 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #003366;
+    padding: 10px 20px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.hamburger {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+}
+
+.mobileMenu {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+}
